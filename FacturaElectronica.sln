@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89C3A561-0444-46A0-8F1F-8ED0F3F8AC14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.FacturaElectronica.Domain", "src\Mre.Visas.FacturaElectronica.Domain\Mre.Visas.FacturaElectronica.Domain.csproj", "{4F912127-93E1-4DC6-831F-DF64C69A85BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.FacturaElectronica.Infrastructure", "src\Mre.Visas.FacturaElectronica.Infrastructure\Mre.Visas.FacturaElectronica.Infrastructure.csproj", "{17D41F5F-3FBA-476D-A7BC-3AB7FE4B5DFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.FacturaElectronica.Application", "src\Mre.Visas.FacturaElectronica.Application\Mre.Visas.FacturaElectronica.Application.csproj", "{F25CAE38-42FD-453E-ABE2-3A7267774FA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.FacturaElectronica.Api", "src\Mre.Visas.FacturaElectronica.Api\Mre.Visas.FacturaElectronica.Api.csproj", "{AE266030-B2AB-4237-A043-32BDD9F01C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F912127-93E1-4DC6-831F-DF64C69A85BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F912127-93E1-4DC6-831F-DF64C69A85BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F912127-93E1-4DC6-831F-DF64C69A85BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F912127-93E1-4DC6-831F-DF64C69A85BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D41F5F-3FBA-476D-A7BC-3AB7FE4B5DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D41F5F-3FBA-476D-A7BC-3AB7FE4B5DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D41F5F-3FBA-476D-A7BC-3AB7FE4B5DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D41F5F-3FBA-476D-A7BC-3AB7FE4B5DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25CAE38-42FD-453E-ABE2-3A7267774FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25CAE38-42FD-453E-ABE2-3A7267774FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25CAE38-42FD-453E-ABE2-3A7267774FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25CAE38-42FD-453E-ABE2-3A7267774FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE266030-B2AB-4237-A043-32BDD9F01C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE266030-B2AB-4237-A043-32BDD9F01C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE266030-B2AB-4237-A043-32BDD9F01C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE266030-B2AB-4237-A043-32BDD9F01C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F912127-93E1-4DC6-831F-DF64C69A85BA} = {89C3A561-0444-46A0-8F1F-8ED0F3F8AC14}
+		{17D41F5F-3FBA-476D-A7BC-3AB7FE4B5DFF} = {89C3A561-0444-46A0-8F1F-8ED0F3F8AC14}
+		{F25CAE38-42FD-453E-ABE2-3A7267774FA4} = {89C3A561-0444-46A0-8F1F-8ED0F3F8AC14}
+		{AE266030-B2AB-4237-A043-32BDD9F01C54} = {89C3A561-0444-46A0-8F1F-8ED0F3F8AC14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60DA7C70-4F04-4D50-A857-7634B9FD6CDC}
+	EndGlobalSection
+EndGlobal

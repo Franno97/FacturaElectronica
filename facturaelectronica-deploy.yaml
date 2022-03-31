@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {deploymentName}
+spec:
+  replicas: {replicas}
+  selector:
+    matchLabels:
+      app: {appSelector}
+  template:
+    metadata:
+      labels:
+        app: {appSelector}
+    spec:
+      containers:
+        - name: {containerName}
+          image: {registryIP}:{registryPort}/{imageName}:{environment}
+          ports:
+          - containerPort: {targetPort}
+          resources:
+            requests:
+              cpu: 150m
+            limits:
+              cpu: 300m
+          env:
+          - name: "ASPNETCORE_ENVIRONMENT"
+            value: "{ASPNETCORE_ENVIRONMENT}"
+          volumeMounts:
+            - name: {volMountName}
+              mountPath: {volMountPath}
+              subPath: {volMountSubpath}
+      volumes:
+        - name: {volName}
+          configMap:
+            name: {configMapName}
